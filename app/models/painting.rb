@@ -1,4 +1,4 @@
-class Painting
+class Painting < ActiveRecord::Base
 
   attr_reader :title, :style
 
